@@ -1,6 +1,6 @@
 module.exports = function(app){
     var HeroFW = Object.getPrototypeOf(app).HeroFW = new app.Component("heroFW");
-    HeroFW.debug = true;
+    // HeroFW.debug = true;
     HeroFW.createdAt      = "2.0.0";
     HeroFW.lastUpdate     = "2.0.0";
     HeroFW.version        = "1";
