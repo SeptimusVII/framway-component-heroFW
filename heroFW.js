@@ -21,7 +21,6 @@ module.exports = function(app){
 
     HeroFW.prototype.setHeight = function() {
         var heroFW = this;
-        heroFW.log('here')
         var heightBox = 0;
         if(heroFW.$el.data('height') && heroFW.$el.data('height') != ""){
             heightBox = heroFW.$el.data('height');
