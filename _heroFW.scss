@@ -5,19 +5,19 @@
     & .h#{$index}{margin-bottom: 0.5rem;}
     &.title--1{
       & h#{$index},
-      & .h#{$index}{font-size:5rem;font-size: calc(1.2rem + 3.5vw); line-height: 1.2;font-weight: 300;}
+      & .h#{$index}{font-size:3.5rem;font-size: calc(1.2rem + 2vw); line-height: 1.2;font-weight: 300;}
     }
     &.title--2{
       & h#{$index},
-      & .h#{$index}{font-size:4.5rem;font-size: calc(1.2rem + 3vw); line-height: 1.2;font-weight: 300;}
+      & .h#{$index}{font-size:4rem;font-size: calc(1.2rem + 2.5vw); line-height: 1.2;font-weight: 300;}
     }
     &.title--3{
       & h#{$index},
-      & .h#{$index}{font-size:4rem;font-size: calc(1.2rem + 2.5vw); line-height: 1.2;font-weight: 300;}
+      & .h#{$index}{font-size:4.5rem;font-size: calc(1.2rem + 3vw); line-height: 1.2;font-weight: 300;}
     }
     &.title--4{
       & h#{$index},
-      & .h#{$index}{font-size:3.5rem;font-size: calc(1.2rem + 2vw); line-height: 1.2;font-weight: 300;}
+      & .h#{$index}{font-size:5rem;font-size: calc(1.2rem + 3.5vw); line-height: 1.2;font-weight: 300;}
     }
   }
 }
