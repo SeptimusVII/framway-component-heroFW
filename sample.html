@@ -7,7 +7,7 @@
       <div class="heroFW__content__wrapper">
         <h3>Lorem ipsum</h3>
         <p>Lorem ipsum dolor sit amet</p>
-        <button>Lorem</button>
+        <button class="btn-bg-secondary">Lorem</button>
       </div>
     </div>
   </div>
@@ -20,17 +20,17 @@
 	<field type="select" label="Horizontal alignment" target="class" values="img--left,img--right" labels="Left,Right" selected="" helper="Align the image only if cropped"></field>
 	
 	<field type="separator" label="Content properties"></field>
-  	<field type="select" label="Vertical alignment" target="class" values="content--v--top,content--v--center,content--v--bottom"  labels="Top,Center,Bottom"  selected="content--v--bottom" helper="Adjust the content position in the block"></field>
-  	<field type="select" label="Horizontal alignment" target="class" values="content--h--left,content--h--center,content--h--right"  labels="Left,Center,Right"  selected="content--h--left" helper="Adjust the content position in the block"></field>
-  	<field type="select" label="Title modifier" target="class" values="title--1,title--2,title--3,title--4" labels="Display 1,Display 2,Display 3,Display 4" selected="title--3" helper="Apply a style modifier to the title elements"></field>
-  	<field type="select" label="Font color" target="class" values="ft-#colors" labels="#colors" selected="ft-white" helper="Set the content's font color"></field>
+	<field type="select" label="Vertical alignment" target="class" values="content--v--top,content--v--center,content--v--bottom"  labels="Top,Center,Bottom"  selected="content--v--bottom" helper="Adjust the content position in the block"></field>
+	<field type="select" label="Horizontal alignment" target="class" values="content--h--left,content--h--center,content--h--right"  labels="Left,Center,Right"  selected="content--h--left" helper="Adjust the content position in the block"></field>
+	<field type="select" label="Font color" target="class" values="ft-#colors" labels="#colors" selected="ft-white" helper="Set the content's font color"></field>
+	<field type="select" label="Title multiplier" target="class" values="title--1,title--2,title--3,title--4" labels="Display 1,Display 2,Display 3,Display 4" selected="title--3" helper="Apply a style that enlarge the title elements"></field>
 
-	<field type="separator" label="Background properties"></field>
-  	<field type="select" label="Background color" target="class" values="content__bg--#colors" labels="#colors" selected="content__bg--darkblue" helper="Set the content's background color"></field>
-  	<field type="number" label="Background opacity" target="class" range="0-10" value="6" prefix="content__bg__opacity--" helper="Set transparency to the content's background. From 0 to 10, where 0 is non-visible and 10 is fully opaque."></field>
+	<field type="separator" label="Overlay properties"></field>
+	<field type="select" label="Overlay color" target="class" values="content__bg--#colors" labels="#colors" selected="content__bg--primary" helper="Set the picture's overlay color"></field>
+	<field type="number" label="Overlay opacity" target="class" range="0-10" value="6" prefix="content__bg__opacity--" helper="Set transparency to the picture's overlay. From 0 to 10, where 0 is non-visible and 10 is fully opaque."></field>
 
 	<field type="separator" label="Misc"></field>
-	<field type="checkbox" label="Force full width" target="class" value="force-full" selected="" helper="By default, the element's width is 100% of its container. This option force the hero to take the <b>full viewport width</b>."></field>
+	<field type="checkbox" label="Force full width" target="class" value="w-full" selected="" helper="By default, the element's width is 100% of its container. This option force the hero to take the <b>full viewport width</b>."></field>
 	<field type="checkbox" label="Force full height" target="data-height" value="viewport" selected="" helper="By default, the height is defined by the image's height. This option force the hero to take the <b>full viewport height</b>. Alternatively, you can fill the height attribute with the desired dimension."></field>
 	<field type="checkbox" label="Height relative to content" target="class" value="height--content" selected="" helper="By default, the height is defined by the image's height. This option force the hero to take the <b>content's height</b>. Alternatively, you can fill the height attribute with the desired dimension."></field>
 	<field type="checkbox" label="Width relative to content" target="class" value="width--content" selected="" helper="By default, the element's width is 100% of its container. This option force the hero to take the <b>content's width</b> and <b>content's height</b>."></field>
