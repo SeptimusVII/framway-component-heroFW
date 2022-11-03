@@ -73,5 +73,5 @@
   }
 }
 .heroFW__content__wrapper{ max-width: 100%;
-  & *:last-child{margin-bottom: 0;}
+  &>*:last-child{margin-bottom: 0;}
 }
