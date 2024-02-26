@@ -73,6 +73,6 @@
   }
 }
 .heroFW__content__wrapper{ 
+  @include lastChildNoMargin();
   &:not(.container){max-width: 100%;}
-  &>*:last-child{margin-bottom: 0;}
 }
