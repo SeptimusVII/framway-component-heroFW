@@ -1,4 +1,5 @@
 .heroFW{ margin-bottom: $spacing; padding: 0; background-color: body(background); font-weight: 300; min-height: 300px;
+  &.content__bg--none{background-color: transparent;}
   &.height--content{min-height: 0 !important;}
   &.width--content{width: fit-content;}
   @for $index from 1 through 6{
