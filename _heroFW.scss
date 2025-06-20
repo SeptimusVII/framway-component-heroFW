@@ -73,7 +73,8 @@
     .content__bg__opacity--#{$index} &:after{opacity: $index*.1;}
   }
 }
-.heroFW__content__wrapper{ 
+.heroFW__content__wrapper{
+  &.container{padding: 0;}
   @include lastChildNoMargin();
   &:not(.container){max-width: 100%;}
 }
