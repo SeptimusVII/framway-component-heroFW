@@ -1,6 +1,6 @@
 .heroFW{ margin-bottom: $spacing; padding: 0; background-color: body(background); font-weight: 300; min-height: 300px;
   &.content__bg--none{background-color: transparent;}
-  &.height--content{min-height: 0 !important;}
+  &.height--content{min-height: 0 !important; height: fit-content !important;}
   &.width--content{width: fit-content;}
   @for $index from 1 through 6{
     & h#{$index},
@@ -19,7 +19,9 @@
     .heroFW__title{font-size:5rem;font-size: calc(1.2rem + 3.5vw); line-height: 1.2;font-weight: 300;}
   }
 }
-.heroFW__wrapper{text-decoration: none; color: inherit; overflow: hidden; position: relative; display: block; width: 100%; height: 100%; font-size: 1.25rem;}
+.heroFW__wrapper{text-decoration: none; color: inherit; overflow: hidden; position: relative; display: block; width: 100%; height: 100%; font-size: 1.25rem;
+  .height--content &{height: inherit;}
+}
 .heroFW__figure{width: 100%; height: 100%;
   .width--content &,
   .height--content &{position: absolute;}
@@ -42,6 +44,7 @@
 .heroFW__content{position: absolute; z-index: 0; left: 0; top: 0; width: 100%;height: 100%; padding: $spacing*2; @include flex-container(row,wrap,flex-start,center);
   .width--content &,
   .height--content &{position: relative;}
+  .height--content &{height: inherit;}
   .heroFW[class*="ft-"] & *:not([class*="btn"]):not(button):not(a){color: inherit;}
   
   @include media-min(md){padding: $spacing*2 15%;}
