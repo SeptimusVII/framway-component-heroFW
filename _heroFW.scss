@@ -45,7 +45,7 @@
   .width--content &,
   .height--content &{position: relative;}
   .height--content &{height: inherit;}
-  .heroFW[class*="ft-"] & *:not([class*="btn"]):not(button):not(a){color: inherit;}
+  .heroFW[class*="ft-"] & *:not([class*="btn"]):not(button):not(a):not(%input){color: inherit;}
   
   @include media-min(md){padding: $spacing*2 15%;}
   @include media-max(xxs){ padding: $spacing;}
