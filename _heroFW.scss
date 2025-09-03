@@ -77,7 +77,7 @@
   }
 }
 .heroFW__content__wrapper{
-  &.container{padding: 0;}
+  // &.container{padding: 0;}
   @include lastChildNoMargin();
   &:not(.container){max-width: 100%;}
 }
